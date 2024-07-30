@@ -43,7 +43,7 @@ We follow a branching model where each feature or fix is developed in its own br
    git add -A
    ```
 
-3. **Commit your changes**: Commit your changes with a meaningful message. (see CONTRIBUTING.md for more details)
+3. **Commit your changes**: Commit your changes with a meaningful message. (see [CONTRIBUTING.md](https://github.com/weststar-mortgage/.github/blob/main/CONTRIBUTING.md) for more details)
    ```sh
    git commit -m "Brief description of your changes"
    ```

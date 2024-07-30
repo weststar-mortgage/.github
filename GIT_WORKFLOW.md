@@ -31,7 +31,7 @@ We use a simple branching model where each new feature or bug fix is developed i
     git add -A
     ```
 
-2. **Commit Changes**: (see CONTRIBUTING.md for more details)
+2. **Commit Changes**: (see [CONTRIBUTING.md](https://github.com/weststar-mortgage/.github/blob/main/CONTRIBUTING.md) for more details)
     ```sh
     git commit -m "Description of changes"
     ```
