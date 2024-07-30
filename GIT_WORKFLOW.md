@@ -8,9 +8,8 @@ We use a simple branching model where each new feature or bug fix is developed i
 
 ## Branch Naming
 
-- **Feature Branches**: `feature/brief-description`
-- **Bug Fix Branches**: `bugfix/brief-description`
-- **Hotfix Branches**: `hotfix/brief-description`
+- **Feature Branches**: `feat-brief-description`
+- **Bug Fix Branches**: `fix-brief-description`
 
 ## Branching
 
@@ -22,17 +21,17 @@ We use a simple branching model where each new feature or bug fix is developed i
 
 2. **Create a Branch**:
     ```sh
-    git checkout -b feature/brief-description
+    git checkout -b feat-brief-description
     ```
 
 ## Committing
 
 1. **Stage Changes**:
     ```sh
-    git add .
+    git add -A
     ```
 
-2. **Commit Changes**:
+2. **Commit Changes**: (see CONTRIBUTING.md for more details)
     ```sh
     git commit -m "Description of changes"
     ```
@@ -41,7 +40,7 @@ We use a simple branching model where each new feature or bug fix is developed i
 
 1. **Push Branch to GitHub**:
     ```sh
-    git push origin feature/brief-description
+    git push origin feat-brief-description
     ```
 
 ## Pull Requests
@@ -49,6 +48,9 @@ We use a simple branching model where each new feature or bug fix is developed i
 1. **Create a Pull Request**: On GitHub, create a pull request from your branch to `main`.
 2. **Description**: Provide a clear title and description for your pull request.
 3. **Link Issues**: Reference any relevant issues.
+    ```
+    Resolves #13
+    ```
 
 ## Code Review
 
@@ -58,18 +60,17 @@ We use a simple branching model where each new feature or bug fix is developed i
 
 ## Merging
 
-1. **Squash and Merge**: Use the "Squash and merge" option to merge your changes into `main`.
+1. **Merge**: Use the "Create a merge commit" option to merge your changes into `main`.
 2. **Delete Branch**: Delete the branch after it has been merged.
 
 ## Releasing
 
-1. **Tagging**: Create a tag for the new release.
-    ```sh
-    git tag -a v1.0.0 -m "Release version 1.0.0"
-    git push origin v1.0.0
-    ```
-
-2. **Release Notes**: Update the release notes on GitHub.
+1. **Create Release**: In the "Releases" section of the repo, create a new release. 
+2. **Tagging**: Choose a new tag name like v1.0.0, while adhering to [semantic versioning](https://semver.org/).
+3. **Release Title**: Give title that is a brief summary of the changes.
+4. **Release Notes**: Above the release notes, there is a "Generate Release Notes" button that can be automatically generated.
+5. **Attach Artifacts**: Attach any build artifacts (perhaps the single publish file).
+6. **Publish Release**: Click the "Publish Release" button to publish the release.
 
 ## Summary
 
