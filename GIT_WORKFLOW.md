@@ -1,6 +1,6 @@
 # Git Workflow
 
-This document outlines the Git workflow we use in our project.
+This document outlines the Git workflow we use at Weststar Mortgage.
 
 ## Overview
 

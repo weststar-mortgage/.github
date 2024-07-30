@@ -1,6 +1,6 @@
-# Organization Documentation
+# Weststar Mortgage Documentation
 
-Welcome to our GitHub organization! This documentation is designed to help you get started with Git, GitHub, and our workflow. 
+Welcome to the Weststar Mortgage GitHub organization! This documentation is designed to help you get started with Git, GitHub, and our workflow. 
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ Welcome to our GitHub organization! This documentation is designed to help you g
     ```
 3. **Clone the Repository**: Clone the repository to your local machine.
     ```sh
-    git clone https://github.com/OrganizationName/RepositoryName.git
+    git clone https://github.com/weststar-mortgage/RepositoryName.git
     cd RepositoryName
     ```
 
